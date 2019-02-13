@@ -9,6 +9,7 @@ namespace ETHotfix
 		{
 			try
 			{
+                //测试模式
                 Log.Debug("进来了热更层");
                 Game.Scene.ModelScene = ETModel.Game.Scene;
 
