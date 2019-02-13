@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 2420157054
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 560a79b0660f7c91787acc7809ca0a18
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 10853a7bfcd9831e9882e96c363664aa
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1669b0a062dc66842ab1bca41a93ebe4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d8cd7e379c2ccc242af04f0746d2d65b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: eda6fcef92c39a445a1d9181323ab49d, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/Audio/BGM.mp3
+- Assets/Res/ProjectPrefabs/AudioObject.prefab
+- Assets/Bundles/Audio/AudioController.prefab
+- Assets/Res/Audio/Click.mp3
+Dependencies: []

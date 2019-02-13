@@ -1,0 +1,24 @@
+2018-12-15 14:47:20.8731 AllServer 001 (Log.cs:51) { "_t" : "C2G_ClientLoginRequest", "RpcId" : 1, "Account" : "1", "Password" : "1" }
+2018-12-15 15:02:59.1928 AllServer 001 (Log.cs:51) { "_t" : "C2G_ClientLoginRequest", "RpcId" : 1, "Account" : "123qqq", "Password" : "qq" }
+2018-12-15 15:09:14.5550 AllServer 001 (Log.cs:51) { "_t" : "C2G_ClientLoginRequest", "RpcId" : 1, "Account" : "3", "Password" : "3" }
+2018-12-15 15:11:56.1896 AllServer 001 (Log.cs:51) { "_t" : "C2R_Login", "RpcId" : 1, "Account" : "3", "Password" : "3" }
+2018-12-15 15:11:56.3871 AllServer 001 (Log.cs:51) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "3" }
+2018-12-15 15:11:56.4291 AllServer 001 (Log.cs:51) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "3" }
+2018-12-15 15:11:56.4432 AllServer 001 (Log.cs:51) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("6719990501864300789") }
+2018-12-15 15:11:56.4517 AllServer 001 (Log.cs:51) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("6719990501864300789") }
+2018-12-15 15:11:56.4517 AllServer 001 (Log.cs:51) { "_t" : "R2C_Login", "RpcId" : 1, "Error" : 0, "Message" : "", "Address" : "127.0.0.1:10002", "Key" : NumberLong("6719990501864300789") }
+2018-12-15 15:15:25.8038 AllServer 001 (Log.cs:51) { "_t" : "C2G_ClientLoginRequest", "RpcId" : 1, "Account" : "1", "Password" : "1" }
+2018-12-15 15:15:25.8267 AllServer 001 (C2G_LoginHandler.cs:15) Username:1 Password:1
+2018-12-15 15:15:25.8267 AllServer 001 (Log.cs:51) { "_t" : "G2C_ClientLoginResponse", "RpcId" : 1, "Error" : 0, "Message" : "" }
+2018-12-15 15:22:55.3114 AllServer 001 (Log.cs:51) { "_t" : "C2G_ClientLoginRequest", "RpcId" : 1, "Account" : "3", "Password" : "3" }
+2018-12-15 15:22:55.3351 AllServer 001 (C2G_LoginHandler.cs:15) Username:3 Password:3 注册成功
+2018-12-15 15:22:55.3451 AllServer 001 (Log.cs:51) { "_t" : "G2C_ClientLoginResponse", "RpcId" : 1, "Error" : 0, "Message" : "注册成功" }
+2018-12-15 15:45:09.1209 AllServer 001 (Log.cs:51) { "_t" : "C2G_ClientLoginRequest", "RpcId" : 1, "Account" : "", "Password" : "" }
+2018-12-15 15:45:09.1778 AllServer 001 (C2G_LoginHandler.cs:15) Username: Password: 注册成功
+2018-12-15 15:45:09.1962 AllServer 001 (Log.cs:51) { "_t" : "G2C_ClientLoginResponse", "RpcId" : 1, "Error" : 0, "Message" : "注册成功" }
+2018-12-15 15:45:15.4738 AllServer 001 (Log.cs:51) { "_t" : "C2G_ClientLoginRequest", "RpcId" : 2, "Account" : "w", "Password" : "w" }
+2018-12-15 15:45:15.4738 AllServer 001 (C2G_LoginHandler.cs:15) Username:w Password:w 注册成功
+2018-12-15 15:45:15.4802 AllServer 001 (Log.cs:51) { "_t" : "G2C_ClientLoginResponse", "RpcId" : 2, "Error" : 0, "Message" : "注册成功" }
+2018-12-15 15:50:13.7451 AllServer 001 (Log.cs:51) { "_t" : "C2G_ClientLoginRequest", "RpcId" : 1, "Account" : "123", "Password" : "123" }
+2018-12-15 15:50:13.7451 AllServer 001 (C2G_LoginHandler.cs:15) Username:123 Password:123 注册成功
+2018-12-15 15:50:13.7451 AllServer 001 (Log.cs:51) { "_t" : "G2C_ClientLoginResponse", "RpcId" : 1, "Error" : 0, "Message" : "注册成功" }

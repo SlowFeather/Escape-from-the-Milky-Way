@@ -1,0 +1,176 @@
+2018-12-15 16:17:17.5865   System.Exception: not found startconfig: 1 ---> System.Collections.Generic.KeyNotFoundException: The given key '1' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 114
+   --- End of inner exception stack trace ---
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 118
+   at ETModel.StartConfigComponent.Awake(String path, Int32 appId) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 96
+   at ETModel.StartConfigComponentSystem.Awake(StartConfigComponent self, String a, Int32 b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 14
+   at ETModel.AwakeSystem`3.Run(Object o, A a, B b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 69
+   at ETModel.EventSystem.Awake[P1,P2](Component component, P1 p1, P2 p2) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 300 
+ Main at offset 503 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:23:5
+AddComponent<K,P1,P2> at offset 575 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\Entity.cs:134:4
+CreateWithParent<T,A,B> at offset 376 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\ComponentFactory.cs:55:4
+Awake<P1,P2> at offset 535 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:300:6
+Error at offset 144 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Log.cs:31:4
+Error at offset 111 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Logger\NLogAdapter.cs:35:4
+
+2018-12-15 16:17:17.7136   System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.Program.Main(String[] args) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:line 25 
+ Main at offset 572 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:25:5
+Error at offset 144 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Log.cs:31:4
+Error at offset 111 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Logger\NLogAdapter.cs:35:4
+
+2018-12-15 16:17:30.7141   System.Exception: not found startconfig: 1 ---> System.Collections.Generic.KeyNotFoundException: The given key '1' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 114
+   --- End of inner exception stack trace ---
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 118
+   at ETModel.StartConfigComponent.Awake(String path, Int32 appId) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 96
+   at ETModel.StartConfigComponentSystem.Awake(StartConfigComponent self, String a, Int32 b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 14
+   at ETModel.AwakeSystem`3.Run(Object o, A a, B b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 69
+   at ETModel.EventSystem.Awake[P1,P2](Component component, P1 p1, P2 p2) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 300 
+ Main at offset 503 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:23:5
+AddComponent<K,P1,P2> at offset 575 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\Entity.cs:134:4
+CreateWithParent<T,A,B> at offset 376 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\ComponentFactory.cs:55:4
+Awake<P1,P2> at offset 535 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:300:6
+Error at offset 144 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Log.cs:31:4
+Error at offset 111 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Logger\NLogAdapter.cs:35:4
+
+2018-12-15 16:17:30.7911   System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.Program.Main(String[] args) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:line 25 
+ Main at offset 572 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:25:5
+Error at offset 144 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Log.cs:31:4
+Error at offset 111 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Logger\NLogAdapter.cs:35:4
+
+2018-12-15 16:17:34.8011   System.Exception: not found startconfig: 1 ---> System.Collections.Generic.KeyNotFoundException: The given key '1' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 114
+   --- End of inner exception stack trace ---
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 118
+   at ETModel.StartConfigComponent.Awake(String path, Int32 appId) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 96
+   at ETModel.StartConfigComponentSystem.Awake(StartConfigComponent self, String a, Int32 b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 14
+   at ETModel.AwakeSystem`3.Run(Object o, A a, B b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 69
+   at ETModel.EventSystem.Awake[P1,P2](Component component, P1 p1, P2 p2) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 300 
+ Main at offset 503 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:23:5
+AddComponent<K,P1,P2> at offset 575 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\Entity.cs:134:4
+CreateWithParent<T,A,B> at offset 376 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\ComponentFactory.cs:55:4
+Awake<P1,P2> at offset 535 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:300:6
+Error at offset 144 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Log.cs:31:4
+Error at offset 111 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Logger\NLogAdapter.cs:35:4
+
+2018-12-15 16:17:34.9141   System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.Program.Main(String[] args) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:line 25 
+ Main at offset 572 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:25:5
+Error at offset 144 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Log.cs:31:4
+Error at offset 111 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Logger\NLogAdapter.cs:35:4
+
+2018-12-15 16:19:08.0397   System.Exception: not found startconfig: 1 ---> System.Collections.Generic.KeyNotFoundException: The given key '1' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 114
+   --- End of inner exception stack trace ---
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 118
+   at ETModel.StartConfigComponent.Awake(String path, Int32 appId) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 96
+   at ETModel.StartConfigComponentSystem.Awake(StartConfigComponent self, String a, Int32 b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 14
+   at ETModel.AwakeSystem`3.Run(Object o, A a, B b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 69
+   at ETModel.EventSystem.Awake[P1,P2](Component component, P1 p1, P2 p2) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 300 
+ Main at offset 503 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:23:5
+AddComponent<K,P1,P2> at offset 575 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\Entity.cs:134:4
+CreateWithParent<T,A,B> at offset 376 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\ComponentFactory.cs:55:4
+Awake<P1,P2> at offset 535 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:300:6
+Error at offset 144 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Log.cs:31:4
+Error at offset 111 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Logger\NLogAdapter.cs:35:4
+
+2018-12-15 16:19:08.1289   System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.Program.Main(String[] args) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:line 25 
+ Main at offset 572 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:25:5
+Error at offset 144 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Log.cs:31:4
+Error at offset 111 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Logger\NLogAdapter.cs:35:4
+
+2018-12-15 18:07:33.8128   System.Exception: not found startconfig: 1 ---> System.Collections.Generic.KeyNotFoundException: The given key '1' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 114
+   --- End of inner exception stack trace ---
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 118
+   at ETModel.StartConfigComponent.Awake(String path, Int32 appId) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 96
+   at ETModel.StartConfigComponentSystem.Awake(StartConfigComponent self, String a, Int32 b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 14
+   at ETModel.AwakeSystem`3.Run(Object o, A a, B b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 69
+   at ETModel.EventSystem.Awake[P1,P2](Component component, P1 p1, P2 p2) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 300 
+ Main at offset 503 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:23:5
+AddComponent<K,P1,P2> at offset 575 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\Entity.cs:134:4
+CreateWithParent<T,A,B> at offset 376 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\ComponentFactory.cs:55:4
+Awake<P1,P2> at offset 535 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:300:6
+Error at offset 144 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Log.cs:31:4
+Error at offset 111 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Logger\NLogAdapter.cs:35:4
+
+2018-12-15 18:07:33.9903   System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.Program.Main(String[] args) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:line 25 
+ Main at offset 572 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:25:5
+Error at offset 144 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Log.cs:31:4
+Error at offset 111 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Logger\NLogAdapter.cs:35:4
+
+2018-12-15 18:19:59.1970   System.Exception: not found startconfig: 1 ---> System.Collections.Generic.KeyNotFoundException: The given key '1' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 114
+   --- End of inner exception stack trace ---
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 118
+   at ETModel.StartConfigComponent.Awake(String path, Int32 appId) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 96
+   at ETModel.StartConfigComponentSystem.Awake(StartConfigComponent self, String a, Int32 b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 14
+   at ETModel.AwakeSystem`3.Run(Object o, A a, B b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 69
+   at ETModel.EventSystem.Awake[P1,P2](Component component, P1 p1, P2 p2) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 300 
+ Main at offset 503 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:23:5
+AddComponent<K,P1,P2> at offset 575 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\Entity.cs:134:4
+CreateWithParent<T,A,B> at offset 376 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\ComponentFactory.cs:55:4
+Awake<P1,P2> at offset 535 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:300:6
+Error at offset 144 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Log.cs:31:4
+Error at offset 111 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Logger\NLogAdapter.cs:35:4
+
+2018-12-15 18:19:59.2770   System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.Program.Main(String[] args) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:line 25 
+ Main at offset 572 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:25:5
+Error at offset 144 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Log.cs:31:4
+Error at offset 111 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Logger\NLogAdapter.cs:35:4
+
+2018-12-15 18:20:03.3320   System.Exception: not found startconfig: 1 ---> System.Collections.Generic.KeyNotFoundException: The given key '1' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 114
+   --- End of inner exception stack trace ---
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 118
+   at ETModel.StartConfigComponent.Awake(String path, Int32 appId) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 96
+   at ETModel.StartConfigComponentSystem.Awake(StartConfigComponent self, String a, Int32 b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 14
+   at ETModel.AwakeSystem`3.Run(Object o, A a, B b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 69
+   at ETModel.EventSystem.Awake[P1,P2](Component component, P1 p1, P2 p2) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 300 
+ Main at offset 503 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:23:5
+AddComponent<K,P1,P2> at offset 575 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\Entity.cs:134:4
+CreateWithParent<T,A,B> at offset 376 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\ComponentFactory.cs:55:4
+Awake<P1,P2> at offset 535 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:300:6
+Error at offset 144 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Log.cs:31:4
+Error at offset 111 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Logger\NLogAdapter.cs:35:4
+
+2018-12-15 18:20:03.4165   System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.Program.Main(String[] args) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:line 25 
+ Main at offset 572 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:25:5
+Error at offset 144 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Log.cs:31:4
+Error at offset 111 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Logger\NLogAdapter.cs:35:4
+
+2018-12-15 19:33:02.3605   System.Exception: not found startconfig: 1 ---> System.Collections.Generic.KeyNotFoundException: The given key '1' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 114
+   --- End of inner exception stack trace ---
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 118
+   at ETModel.StartConfigComponent.Awake(String path, Int32 appId) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 96
+   at ETModel.StartConfigComponentSystem.Awake(StartConfigComponent self, String a, Int32 b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 14
+   at ETModel.AwakeSystem`3.Run(Object o, A a, B b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 69
+   at ETModel.EventSystem.Awake[P1,P2](Component component, P1 p1, P2 p2) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 300 
+ Main at offset 503 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:23:5
+AddComponent<K,P1,P2> at offset 575 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\Entity.cs:134:4
+CreateWithParent<T,A,B> at offset 376 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\ComponentFactory.cs:55:4
+Awake<P1,P2> at offset 535 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:300:6
+Error at offset 144 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Log.cs:31:4
+Error at offset 111 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Logger\NLogAdapter.cs:35:4
+
+2018-12-15 19:33:02.4875   System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.Program.Main(String[] args) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:line 25 
+ Main at offset 572 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:25:5
+Error at offset 144 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Log.cs:31:4
+Error at offset 111 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Logger\NLogAdapter.cs:35:4
+

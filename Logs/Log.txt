@@ -1,0 +1,122 @@
+2018-12-15 13:55:25.8097 AllServer 001 (Program.cs:38) server start........................ 1 AllServer
+2018-12-15 14:26:41.6229 AllServer 001 (Program.cs:38) server start........................ 1 AllServer
+2018-12-15 14:47:20.8731 AllServer 001 (Log.cs:51) { "_t" : "C2G_ClientLoginRequest", "RpcId" : 1, "Account" : "1", "Password" : "1" }
+2018-12-15 14:47:20.8897 AllServer 001 (MessageDispatherComponentSystem.cs:84) 消息没有处理: 10011 { "_t" : "C2G_ClientLoginRequest", "RpcId" : 1, "Account" : "1", "Password" : "1" }
+2018-12-15 15:00:48.2110 AllServer 001 (Program.cs:38) server start........................ 1 AllServer
+2018-12-15 15:02:59.1928 AllServer 001 (Log.cs:51) { "_t" : "C2G_ClientLoginRequest", "RpcId" : 1, "Account" : "123qqq", "Password" : "qq" }
+2018-12-15 15:02:59.2016 AllServer 001 (MessageDispatherComponentSystem.cs:84) 消息没有处理: 10011 { "_t" : "C2G_ClientLoginRequest", "RpcId" : 1, "Account" : "123qqq", "Password" : "qq" }
+2018-12-15 15:09:02.5290 AllServer 001 (Program.cs:38) server start........................ 1 AllServer
+2018-12-15 15:09:14.5550 AllServer 001 (Log.cs:51) { "_t" : "C2G_ClientLoginRequest", "RpcId" : 1, "Account" : "3", "Password" : "3" }
+2018-12-15 15:09:14.5616 AllServer 001 (MessageDispatherComponentSystem.cs:84) 消息没有处理: 10011 { "_t" : "C2G_ClientLoginRequest", "RpcId" : 1, "Account" : "3", "Password" : "3" }
+2018-12-15 15:11:19.5175 AllServer 001 (Program.cs:38) server start........................ 1 AllServer
+2018-12-15 15:11:56.1896 AllServer 001 (Log.cs:51) { "_t" : "C2R_Login", "RpcId" : 1, "Account" : "3", "Password" : "3" }
+2018-12-15 15:11:56.3871 AllServer 001 (Log.cs:51) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "3" }
+2018-12-15 15:11:56.4291 AllServer 001 (Log.cs:51) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "3" }
+2018-12-15 15:11:56.4432 AllServer 001 (Log.cs:51) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("6719990501864300789") }
+2018-12-15 15:11:56.4517 AllServer 001 (Log.cs:51) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("6719990501864300789") }
+2018-12-15 15:11:56.4517 AllServer 001 (Log.cs:51) { "_t" : "R2C_Login", "RpcId" : 1, "Error" : 0, "Message" : "", "Address" : "127.0.0.1:10002", "Key" : NumberLong("6719990501864300789") }
+2018-12-15 15:13:37.8423 AllServer 001 (Program.cs:38) server start........................ 1 AllServer
+2018-12-15 15:15:25.8038 AllServer 001 (Log.cs:51) { "_t" : "C2G_ClientLoginRequest", "RpcId" : 1, "Account" : "1", "Password" : "1" }
+2018-12-15 15:15:25.8267 AllServer 001 (C2G_LoginHandler.cs:15) Username:1 Password:1
+2018-12-15 15:15:25.8267 AllServer 001 (Log.cs:51) { "_t" : "G2C_ClientLoginResponse", "RpcId" : 1, "Error" : 0, "Message" : "" }
+2018-12-15 15:18:47.7218 AllServer 001 (Program.cs:38) server start........................ 1 AllServer
+2018-12-15 15:22:55.3114 AllServer 001 (Log.cs:51) { "_t" : "C2G_ClientLoginRequest", "RpcId" : 1, "Account" : "3", "Password" : "3" }
+2018-12-15 15:22:55.3351 AllServer 001 (C2G_LoginHandler.cs:15) Username:3 Password:3 注册成功
+2018-12-15 15:22:55.3451 AllServer 001 (Log.cs:51) { "_t" : "G2C_ClientLoginResponse", "RpcId" : 1, "Error" : 0, "Message" : "注册成功" }
+2018-12-15 15:45:09.1209 AllServer 001 (Log.cs:51) { "_t" : "C2G_ClientLoginRequest", "RpcId" : 1, "Account" : "", "Password" : "" }
+2018-12-15 15:45:09.1778 AllServer 001 (C2G_LoginHandler.cs:15) Username: Password: 注册成功
+2018-12-15 15:45:09.1962 AllServer 001 (Log.cs:51) { "_t" : "G2C_ClientLoginResponse", "RpcId" : 1, "Error" : 0, "Message" : "注册成功" }
+2018-12-15 15:45:15.4738 AllServer 001 (Log.cs:51) { "_t" : "C2G_ClientLoginRequest", "RpcId" : 2, "Account" : "w", "Password" : "w" }
+2018-12-15 15:45:15.4738 AllServer 001 (C2G_LoginHandler.cs:15) Username:w Password:w 注册成功
+2018-12-15 15:45:15.4802 AllServer 001 (Log.cs:51) { "_t" : "G2C_ClientLoginResponse", "RpcId" : 2, "Error" : 0, "Message" : "注册成功" }
+2018-12-15 15:50:13.7451 AllServer 001 (Log.cs:51) { "_t" : "C2G_ClientLoginRequest", "RpcId" : 1, "Account" : "123", "Password" : "123" }
+2018-12-15 15:50:13.7451 AllServer 001 (C2G_LoginHandler.cs:15) Username:123 Password:123 注册成功
+2018-12-15 15:50:13.7451 AllServer 001 (Log.cs:51) { "_t" : "G2C_ClientLoginResponse", "RpcId" : 1, "Error" : 0, "Message" : "注册成功" }
+2018-12-15 16:17:17.5865   (EventSystem.cs:300) System.Exception: not found startconfig: 1 ---> System.Collections.Generic.KeyNotFoundException: The given key '1' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 114
+   --- End of inner exception stack trace ---
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 118
+   at ETModel.StartConfigComponent.Awake(String path, Int32 appId) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 96
+   at ETModel.StartConfigComponentSystem.Awake(StartConfigComponent self, String a, Int32 b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 14
+   at ETModel.AwakeSystem`3.Run(Object o, A a, B b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 69
+   at ETModel.EventSystem.Awake[P1,P2](Component component, P1 p1, P2 p2) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 300
+2018-12-15 16:17:17.7136   (Program.cs:25) System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.Program.Main(String[] args) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:line 25
+2018-12-15 16:17:30.7141   (EventSystem.cs:300) System.Exception: not found startconfig: 1 ---> System.Collections.Generic.KeyNotFoundException: The given key '1' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 114
+   --- End of inner exception stack trace ---
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 118
+   at ETModel.StartConfigComponent.Awake(String path, Int32 appId) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 96
+   at ETModel.StartConfigComponentSystem.Awake(StartConfigComponent self, String a, Int32 b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 14
+   at ETModel.AwakeSystem`3.Run(Object o, A a, B b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 69
+   at ETModel.EventSystem.Awake[P1,P2](Component component, P1 p1, P2 p2) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 300
+2018-12-15 16:17:30.7911   (Program.cs:25) System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.Program.Main(String[] args) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:line 25
+2018-12-15 16:17:34.8011   (EventSystem.cs:300) System.Exception: not found startconfig: 1 ---> System.Collections.Generic.KeyNotFoundException: The given key '1' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 114
+   --- End of inner exception stack trace ---
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 118
+   at ETModel.StartConfigComponent.Awake(String path, Int32 appId) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 96
+   at ETModel.StartConfigComponentSystem.Awake(StartConfigComponent self, String a, Int32 b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 14
+   at ETModel.AwakeSystem`3.Run(Object o, A a, B b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 69
+   at ETModel.EventSystem.Awake[P1,P2](Component component, P1 p1, P2 p2) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 300
+2018-12-15 16:17:34.9141   (Program.cs:25) System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.Program.Main(String[] args) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:line 25
+2018-12-15 16:19:08.0397   (EventSystem.cs:300) System.Exception: not found startconfig: 1 ---> System.Collections.Generic.KeyNotFoundException: The given key '1' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 114
+   --- End of inner exception stack trace ---
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 118
+   at ETModel.StartConfigComponent.Awake(String path, Int32 appId) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 96
+   at ETModel.StartConfigComponentSystem.Awake(StartConfigComponent self, String a, Int32 b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 14
+   at ETModel.AwakeSystem`3.Run(Object o, A a, B b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 69
+   at ETModel.EventSystem.Awake[P1,P2](Component component, P1 p1, P2 p2) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 300
+2018-12-15 16:19:08.1289   (Program.cs:25) System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.Program.Main(String[] args) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:line 25
+2018-12-15 18:07:33.8128   (EventSystem.cs:300) System.Exception: not found startconfig: 1 ---> System.Collections.Generic.KeyNotFoundException: The given key '1' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 114
+   --- End of inner exception stack trace ---
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 118
+   at ETModel.StartConfigComponent.Awake(String path, Int32 appId) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 96
+   at ETModel.StartConfigComponentSystem.Awake(StartConfigComponent self, String a, Int32 b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 14
+   at ETModel.AwakeSystem`3.Run(Object o, A a, B b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 69
+   at ETModel.EventSystem.Awake[P1,P2](Component component, P1 p1, P2 p2) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 300
+2018-12-15 18:07:33.9903   (Program.cs:25) System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.Program.Main(String[] args) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:line 25
+2018-12-15 18:19:59.1970   (EventSystem.cs:300) System.Exception: not found startconfig: 1 ---> System.Collections.Generic.KeyNotFoundException: The given key '1' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 114
+   --- End of inner exception stack trace ---
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 118
+   at ETModel.StartConfigComponent.Awake(String path, Int32 appId) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 96
+   at ETModel.StartConfigComponentSystem.Awake(StartConfigComponent self, String a, Int32 b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 14
+   at ETModel.AwakeSystem`3.Run(Object o, A a, B b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 69
+   at ETModel.EventSystem.Awake[P1,P2](Component component, P1 p1, P2 p2) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 300
+2018-12-15 18:19:59.2770   (Program.cs:25) System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.Program.Main(String[] args) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:line 25
+2018-12-15 18:20:03.3320   (EventSystem.cs:300) System.Exception: not found startconfig: 1 ---> System.Collections.Generic.KeyNotFoundException: The given key '1' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 114
+   --- End of inner exception stack trace ---
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 118
+   at ETModel.StartConfigComponent.Awake(String path, Int32 appId) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 96
+   at ETModel.StartConfigComponentSystem.Awake(StartConfigComponent self, String a, Int32 b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 14
+   at ETModel.AwakeSystem`3.Run(Object o, A a, B b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 69
+   at ETModel.EventSystem.Awake[P1,P2](Component component, P1 p1, P2 p2) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 300
+2018-12-15 18:20:03.4165   (Program.cs:25) System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.Program.Main(String[] args) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:line 25
+2018-12-15 19:33:02.3605   (EventSystem.cs:300) System.Exception: not found startconfig: 1 ---> System.Collections.Generic.KeyNotFoundException: The given key '1' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 114
+   --- End of inner exception stack trace ---
+   at ETModel.StartConfigComponent.Get(Int32 id) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 118
+   at ETModel.StartConfigComponent.Awake(String path, Int32 appId) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 96
+   at ETModel.StartConfigComponentSystem.Awake(StartConfigComponent self, String a, Int32 b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Component\StartConfigComponent.cs:line 14
+   at ETModel.AwakeSystem`3.Run(Object o, A a, B b) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 69
+   at ETModel.EventSystem.Awake[P1,P2](Component component, P1 p1, P2 p2) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 300
+2018-12-15 19:33:02.4875   (Program.cs:25) System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.Program.Main(String[] args) in F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\App\Program.cs:line 25

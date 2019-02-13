@@ -1,0 +1,36 @@
+2018-12-15 14:47:20.8897 AllServer 001 消息没有处理: 10011 { "_t" : "C2G_ClientLoginRequest", "RpcId" : 1, "Account" : "1", "Password" : "1" } 
+ OnRecvComplete at offset 575 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:279:6
+OnRead at offset 83 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:63:4
+OnRead at offset 76 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Module\Message\Session.cs:121:5
+Run at offset 665 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Module\Message\Session.cs:167:5
+Dispatch at offset 294 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 73 in file:line:column <filename unknown>:0:0
+MoveNext at offset 2291 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:51:5
+Handle at offset 312 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 82 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Log.cs:36:4
+Error at offset 111 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Logger\NLogAdapter.cs:35:4
+
+2018-12-15 15:02:59.2016 AllServer 001 消息没有处理: 10011 { "_t" : "C2G_ClientLoginRequest", "RpcId" : 1, "Account" : "123qqq", "Password" : "qq" } 
+ OnRecvComplete at offset 575 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:279:6
+OnRead at offset 83 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:63:4
+OnRead at offset 76 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Module\Message\Session.cs:121:5
+Run at offset 665 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Module\Message\Session.cs:167:5
+Dispatch at offset 294 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 73 in file:line:column <filename unknown>:0:0
+MoveNext at offset 2291 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:51:5
+Handle at offset 312 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 82 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Log.cs:36:4
+Error at offset 111 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Logger\NLogAdapter.cs:35:4
+
+2018-12-15 15:09:14.5616 AllServer 001 消息没有处理: 10011 { "_t" : "C2G_ClientLoginRequest", "RpcId" : 1, "Account" : "3", "Password" : "3" } 
+ OnRecvComplete at offset 511 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:279:6
+OnRead at offset 79 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:63:4
+OnRead at offset 67 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Module\Message\Session.cs:121:5
+Run at offset 565 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Unity\Assets\Model\Module\Message\Session.cs:167:5
+Dispatch at offset 272 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 73 in file:line:column <filename unknown>:0:0
+MoveNext at offset 2035 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:51:5
+Handle at offset 320 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 76 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Log.cs:36:4
+Error at offset 102 in file:line:column F:\UnityProject\ETForeTest\ET-Branch_V4.0\ET-Branch_V4.0\Server\Model\Base\Logger\NLogAdapter.cs:35:4
+
