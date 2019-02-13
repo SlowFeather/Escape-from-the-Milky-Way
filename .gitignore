@@ -34,4 +34,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*.unity3d
 Release/
