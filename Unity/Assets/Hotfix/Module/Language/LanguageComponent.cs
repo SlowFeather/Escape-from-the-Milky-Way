@@ -23,7 +23,7 @@ namespace ETHotfix
 	{
 		public void Awake()
 		{
-            //从包里读取出组件
+            //从包里读取出组件，保证每次都是最新的文字
             //ETModel.Game.Scene.GetComponent<ResourcesComponent>().LoadBundle("languagesource.unity3d");
             ResourcesComponent resourcesComponent = ETModel.Game.Scene.GetComponent<ResourcesComponent>();
             resourcesComponent.LoadBundle("languagesource.unity3d");
