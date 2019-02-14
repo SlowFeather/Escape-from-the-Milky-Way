@@ -149,3 +149,4 @@ MonoBehaviour:
   doNotDestroyOnLoad: 0
   sendAwakeStartOnDestroyMessage: 1
   sendPoolableActivateDeactivateMessages: 0
+  useReflectionInsteadOfMessages: 0
